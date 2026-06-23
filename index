@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sriram Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sriram</h1>
+    <h2>Cloud Computing Intern</h2>
+
+    <h3>About Me</h3>
+    <p>I am interested in Cloud Computing, AWS, and Web Development.</p>
+
+    <h3>Skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>AWS Cloud</li>
+        <li>Python</li>
+    </ul>
+
+    <h3>Projects</h3>
+    <p>Static Website Hosting using AWS S3</p>
+</body>
+</html>
