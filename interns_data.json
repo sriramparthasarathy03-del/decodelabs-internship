@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "Sriram",
+        "Role": "Cloud Computing Intern",
+        "Email": "sriram@example.com"
+    },
+    {
+        "Name": "Rahul",
+        "Role": "Software Developer",
+        "Email": "rahul@example.com"
+    },
+    {
+        "Name": "Priya",
+        "Role": "Data Analyst",
+        "Email": "priya@example.com"
+    }
+]
