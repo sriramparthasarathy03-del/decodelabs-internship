@@ -1,36 +1,45 @@
-# Project 3 - The Data Warehouse
+# Project 4 - The Serverless Logic
 
 ## Objective
 
-This project demonstrates creating a managed cloud database using AWS DynamoDB.
+Deploy a serverless calculator using AWS Lambda.
 
-## Services Used
+## AWS Service Used
 
-- AWS DynamoDB
-- AWS Management Console
+- AWS Lambda
 
-## Table Details
+## Runtime
 
-Table Name: Interns
+Python 3.x
 
-Partition Key: Name (String)
+## Features
 
-Attributes:
-- Name
-- Role
-- Email
+- Accepts two numbers
+- Performs addition
+- Returns JSON output
+- No server management required
 
-## Sample Records
+## Sample Input
 
-| Name | Role | Email |
-|------|------|-------------------------|
-| Sriram | Cloud Computing Intern | sriramparthasarathy@example.com |
-| ishumishra | cloud computing intern | dkmishra@gmail.com |
-| ayush | cloud computing intern  | ayushmannandha@gmailcom |
+```json
+{
+  "num1": 10,
+  "num2": 20
+}
+```
 
-## Result
+## Sample Output
 
-Successfully created a DynamoDB table named **Interns** and inserted sample records.
+```json
+{
+  "statusCode": 200,
+  "body": {
+    "Number1": 10,
+    "Number2": 20,
+    "Result": 30
+  }
+}
+```
 
 ## Author
 
